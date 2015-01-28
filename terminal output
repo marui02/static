@@ -1,0 +1,27 @@
+rma8@dutch:~$ telnet dutch.mathcs.emory.edu 80
+Trying 170.140.150.171...
+Connected to dutch.mathcs.emory.edu.
+Escape character is '^]'.
+GET /~rma8/ HTTP/1.0
+
+HTTP/1.1 200 OK
+Date: Sat, 24 Jan 2015 15:58:00 GMT
+Server: Apache/2.2.22 (Ubuntu)
+Last-Modified: Sat, 24 Jan 2015 15:48:23 GMT
+ETag: "600026-91-50d67d5d14f31"
+Accept-Ranges: bytes
+Content-Length: 145
+Vary: Accept-Encoding
+Connection: close
+Content-Type: text/html
+
+<html>
+    <head>
+        <title> R.M's Webpage' </title>
+    </head>
+    <body>
+        <h1>Hello World!</h1> Hello CS370!!
+    </body>
+</html>
+Connection closed by foreign host.
+rma8@dutch:~$ 
